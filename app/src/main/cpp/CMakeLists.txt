@@ -5,7 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Optimization flags for mobile CPU inference
-set(COMMON_FLAGS "-O3 -DNDEBUG -ffast-math")
+# Note: ggml requires non-finite math arithmetics, so -fno-finite-math-only is required.
+set(COMMON_FLAGS "-O3 -DNDEBUG -fno-finite-math-only")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${COMMON_FLAGS}")
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${COMMON_FLAGS}")
 
