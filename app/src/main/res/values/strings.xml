@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zero Wisp</string>
+    <string name="accessibility_service_label">Zero Wisp Auto-Paste</string>
+    <string name="accessibility_service_description">Allows Zero Wisp to paste transcribed text directly into any text field.</string>
+
+    <!-- Tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_models">Models</string>
+    <string name="tab_history">History</string>
+
+    <!-- Home -->
+    <string name="launch_bubble">Launch Floating Bubble</string>
+    <string name="stop_bubble">Stop Bubble</string>
+    <string name="permission_microphone">Microphone</string>
+    <string name="permission_overlay">Draw Over Apps</string>
+    <string name="permission_accessibility">Accessibility (Auto-Paste)</string>
+    <string name="permission_battery">Unrestricted Battery</string>
+    <string name="grant">Grant</string>
+    <string name="granted">Granted</string>
+    <string name="test_transcription_hint">Test transcription appears here…</string>
+
+    <!-- Models -->
+    <string name="model_tiny_en">English Fast</string>
+    <string name="model_base_en">English Balanced</string>
+    <string name="model_base_multi">Multilingual Fast</string>
+    <string name="model_small_multi">Bangla / Multilingual Pro</string>
+    <string name="download">Download</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="active">Active</string>
+    <string name="select">Select</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="always_output_english">Always Output English</string>
+    <string name="always_output_english_desc">Translate any language to English</string>
+    <string name="clean_filler_words">Clean Filler Words</string>
+    <string name="clean_filler_words_desc">Remove um, uh, er, ah from transcripts</string>
+    <string name="auto_chunk">Auto-Chunk Long Speech</string>
+    <string name="auto_chunk_desc">Handle 1000+ word dictations seamlessly</string>
+
+    <!-- History -->
+    <string name="history">Transcription History</string>
+    <string name="clear_all">Clear All</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="no_history">No transcriptions yet</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Zero Wisp Service</string>
+    <string name="notification_title">Zero Wisp Active</string>
+    <string name="notification_show_hide">Show/Hide Bubble</string>
+    <string name="notification_stop">Stop</string>
+</resources>
